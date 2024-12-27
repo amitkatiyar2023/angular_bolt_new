@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "https://amitkatiyar2023.github.io/angular_bolt_new_build/"
     runs-on: ubuntu-latest
     needs: build
     steps:
